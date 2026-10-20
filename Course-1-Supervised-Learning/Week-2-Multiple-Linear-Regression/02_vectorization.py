@@ -134,3 +134,57 @@ c = np.dot(X[1], w)
 print(f"X[1] = {X[1]} ,X[1] has shape {X[1].shape}")
 print(f"w = {w}, w has shape {w.shape}")
 print(f"c = {c}, c has shape {c.shape}")
+
+#MATRICES
+#m is the number of rows (training data examples)
+#n is the number of columns (feature number)
+
+a = np.zeros((1,5))
+print(f"a shape ={a.shape}, a = {a}")
+a = np.zeros((2,1))
+print(f"a shape ={a.shape}, a = {a}")
+a = np.random.random_sample((1,1))
+print(f"a shape ={a.shape}, a = {a}")
+
+#matrix creation
+#Numpy routines which allocates memory and fill with user specified values
+a = np.array([[5],[4],[3]]); print(f"a shape ={a.shape}, a = {a}")
+a = np.array([[5],
+              [4],
+              [3]]) ; 
+print(f"a shape ={a.shape}, a = {a}")
+
+#indexing 
+#vector indexing operations on matrices
+a = np.arange(6).reshape(-1,2) #(-1)means it automatically calculates the required rows #only one dimension can use -1
+print(f"a shape ={a.shape}, \na = {a}")
+
+#access an element
+print(f"\na[2,0].shape: {a[2,0].shape}, a[2,0] = {a[2,0]}, type(a[2,0]) = {type(a[2,0])}")
+
+#access a row
+print(f"\na[2].shape: {a[2].shape}, a[2] = {a[2]}, type(a[2]) = {type(a[2])}")
+
+#slicing 
+#vector 2-D slicing operations
+a = np.arange(20).reshape(-1, 10)
+print(f"a = \n{a}")
+
+#access 5 consecutive elements (start:stop:step)
+print("a[0, 2:7:1] = ", a[0, 2:7:1], ",  a[0, 2:7:1].shape =", a[0, 2:7:1].shape, "a 1-D array")
+
+#access 5 consecutive elements (start:stop:step) in two rows
+print("a[:, 2:7:1] = \n", a[:, 2:7:1], ",  a[:, 2:7:1].shape =", a[:, 2:7:1].shape, "a 2-D array")
+
+# access all elements
+print("a[:,:] = \n", a[:,:], ",  a[:,:].shape =", a[:,:].shape)
+
+# access all elements in one row (very common usage)
+print("a[1,:] = ", a[1,:], ",  a[1,:].shape =", a[1,:].shape, "a 1-D array")
+# same as
+print("a[1]   = ", a[1],   ",  a[1].shape   =", a[1].shape, "a 1-D array")
+
+
+
+
+
