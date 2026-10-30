@@ -22,8 +22,8 @@ My goal is to understand *why* an algorithm works, not only how to run it. As I 
 
 | Course | Topics | Notes | Status |
 |---|---|---|---|
-| [Course 1: Supervised Machine Learning](Course-1-Supervised-Learning/README.md) | Linear regression, gradient descent, classification | [Course 1 notes](notes/Course-1-Supervised-Learning/) | In progress |
-| [Course 2: Advanced Learning Algorithms](Course-2-Advanced-Learning-Algorithms/README.md) | Neural networks, model development, decision trees | [Course 2 notes](notes/Course-2-Advanced-Learning-Algorithms/) | Not started |
+| [Course 1: Supervised Machine Learning](Course-1-Supervised-Learning/README.md) | Linear regression, gradient descent, classification | [Course 1 notes](notes/Course-1-Supervised-Learning/) | Completed |
+| [Course 2: Advanced Learning Algorithms](Course-2-Advanced-Learning-Algorithms/README.md) | Neural networks, model development, decision trees | [Course 2 notes](notes/Course-2-Advanced-Learning-Algorithms/) | In progress |
 | [Course 3: Unsupervised Learning, Recommenders & RL](Course-3-Unsupervised-Recommenders-RL/README.md) | Clustering, anomaly detection, recommendation, reinforcement learning | [Course 3 notes](notes/Course-3-Unsupervised-Recommenders-RL/) | Not started |
 
 ## Week-by-week navigation
